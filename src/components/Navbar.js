@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
@@ -8,10 +8,10 @@ const Navbar = () => {
         <h1 className='py-6 px-5 font-bold text-3xl'>Portfolio</h1>
         </div>
        <nav className='flex space-x-9'>
-        <Link to='home' smooth={true} duration={500} className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>HOME</Link>
-        <Link to='skills' smooth={true} duration={500} className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>SKILLS</Link>
-        <Link to='projects' smooth={true} duration={500} className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>PROJECTS</Link>
-        <Link to='contact' smooth={true} duration={500} className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>CONTACT</Link>
+        <a className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>HOME</a>
+        <a className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>SKILLS</a>
+        <a className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>PROJECTS</a>
+        <a  className='transform hover:scale-110 transition duration-300 cursor-pointer font-semibold'>CONTACT</a>
        </nav>
 
 

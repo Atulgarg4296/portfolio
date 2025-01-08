@@ -1,5 +1,5 @@
 import React from 'react'
-import Netflix_logo from "../utils/Netflix_logo.jpg"
+// import Netflix_logo from "../utils/Netflix_logo.jpg"
 import White_Netflix from "../utils/white_netflix.png"
 
 const ProjectsCard = () => {

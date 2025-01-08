@@ -1,6 +1,6 @@
 import React from 'react'
 import Atul_picture from "../utils/Atul_picture.jpg"
-import Picture from "../utils/picture.jpg";
+// import Picture from "../utils/picture.jpg";
 
 const Home = () => {
   return (
