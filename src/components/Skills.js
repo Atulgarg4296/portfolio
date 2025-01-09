@@ -11,6 +11,12 @@ const Skills = () => {
           DSA
         </li>
         <li className="bg-gray-900 rounded p-2 w-32 sm:w-40 text-center transition-transform duration-300 hover:scale-110">
+          DBMS
+        </li>
+        <li className="bg-gray-900 rounded p-2 w-32 sm:w-40 text-center transition-transform duration-300 hover:scale-110">
+          SQL
+        </li>
+        <li className="bg-gray-900 rounded p-2 w-32 sm:w-40 text-center transition-transform duration-300 hover:scale-110">
           HTML
         </li>
         <li className="bg-gray-900 rounded p-2 w-32 sm:w-40 text-center transition-transform duration-300 hover:scale-110">
