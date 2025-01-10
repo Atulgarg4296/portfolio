@@ -14,7 +14,9 @@ const Navbar = () => {
     <div className="flex justify-between items-center bg-gray-900 p-4 text-white fixed top-0 left-0 w-full z-50">
       {/* Logo */}
       <div className="flex-1">
-        <h1 className="py-6 px-5 font-bold text-3xl">Portfolio</h1>
+        <button className="py-6 px-5 font-bold text-3xl" onClick={()=>{
+            scrollToSection("home")
+        }}>Portfolio</button>
       </div>
 
       {/* Hamburger Menu for Mobile */}
