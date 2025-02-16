@@ -1,0 +1,1 @@
+export const netflix_link = "https://netflix-clone-rust-mu.vercel.app/";
