@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div id="footer" className="h-40 text-white font-mono">
-      <h1 className="font-sans text-4xl font-extralight text-center mb-12">CONTACT</h1>
-      <ul className="flex justify-around">
+    <div id="footer" className="h-40 text-white font-mono ">
+      <h1 className="font-sans text-4xl font-extralight text-center md:mb-12 mb-6">CONTACT</h1>
+      <ul className="md:flex md:justify-around grid justify-items-center gap-y-2">
 
         {/* Phone number */}
         <li className="flex gap-x-2">

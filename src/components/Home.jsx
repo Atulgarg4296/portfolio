@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <div id="home" className="text-white flex md:h-screen h-screen" >
         <div className=" w-1/2">
-            <h1 className="text-white text-6xl font-serif md:pl-64 md:pt-64 pl-32 pt-36  ">ATUL GARG</h1>
+            <h1 className="text-white text-6xl font-serif md:pl-64 md:pt-64 pl-32 pt-50  ">ATUL GARG</h1>
             {/* <p className="pl-56 ">About section</p> */}
             <p className="md:pl-64 md:pb-2 w-screen pl-18 mb-2 md:mb-0 ">You can download my resume from here!</p>
             <a href="./ATUL_GARG.pdf" download="Atul's_Resume" className="md:ml-64 ml-40 px-4  rounded py-1 gap-y-2   bg-zinc-800">Resume</a>
